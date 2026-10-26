@@ -1,0 +1,406 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Explore my web development projects, interactive apps, and frontend development portfolio.">
+  <title>My Portfolio | Frontend Developer</title>
+
+  <!-- External CSS -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- Background decoration -->
+  <div class="ambient ambient-one"></div>
+  <div class="ambient ambient-two"></div>
+
+  <!-- Navbar -->
+  <header class="navbar">
+    <a href="#home" class="logo">&lt;dev<span>folio</span> /&gt;</a>
+
+    <nav class="nav-links">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact" class="nav-cta">Let's Connect <span>↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- Hero section -->
+    <section class="hero section" id="home">
+      <div class="hero-content">
+        <div class="availability">
+          <span class="status-dot"></span>
+          WEB DEVELOPMENT • PORTFOLIO
+        </div>
+
+        <p class="eyebrow">HELLO, WORLD! I'M A</p>
+
+        <h1>
+          Frontend<br>
+          Developer<span class="gradient-text">.</span>
+        </h1>
+
+        <p class="hero-description">
+          I turn ideas into clean, responsive and engaging web experiences.
+          Currently learning, building and getting better with every project.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#projects" class="button button-primary">
+            Explore My Work <span>↘</span>
+          </a>
+
+          <a href="https://github.com/juhimaru26-coder"
+             class="button button-secondary"
+             target="_blank"
+             rel="noopener noreferrer">
+            GitHub Profile ↗
+          </a>
+        </div>
+
+        <div class="hero-note">
+          <span class="note-line"></span>
+          Learning by building real projects.
+        </div>
+      </div>
+
+      <div class="hero-visual" aria-label="Developer illustration">
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+
+        <div class="code-card">
+          <div class="code-card-top">
+            <div class="window-dots">
+              <span></span><span></span><span></span>
+            </div>
+            <span class="file-label">developer.js</span>
+          </div>
+
+          <div class="code-content">
+            <p><span class="line-number">01</span> <span class="code-purple">const</span> developer = {</p>
+            <p><span class="line-number">02</span> &nbsp; name: <span class="code-green">"Me"</span>,</p>
+            <p><span class="line-number">03</span> &nbsp; passion: <span class="code-green">"Web Dev"</span>,</p>
+            <p><span class="line-number">04</span> &nbsp; learning: <span class="code-orange">true</span>,</p>
+            <p><span class="line-number">05</span> &nbsp; creativity: <span class="code-orange">100</span></p>
+            <p><span class="line-number">06</span> };</p>
+            <p class="code-last"><span class="line-number">07</span> <span class="code-purple">keepBuilding</span>();<span class="cursor">▋</span></p>
+          </div>
+        </div>
+
+        <div class="floating-chip chip-top">✦ Creative thinking</div>
+        <div class="floating-chip chip-bottom">{"</>"} Building projects</div>
+      </div>
+    </section>
+
+    <!-- Quick intro -->
+    <section class="intro-strip section" id="about">
+      <div>
+        <span class="section-kicker">01 / ABOUT ME</span>
+        <h2>Curious mind. <span class="gradient-text">Builder mindset.</span></h2>
+      </div>
+
+      <p>
+        I'm a web development learner who enjoys turning concepts into
+        working websites. Every project helps me practise problem-solving,
+        design and writing better code.
+      </p>
+    </section>
+
+    <!-- Skills -->
+    <section class="skills-section section">
+      <div class="section-heading">
+        <span class="section-kicker">MY TOOLKIT</span>
+        <h2>Technologies I <span class="gradient-text">work with.</span></h2>
+      </div>
+
+      <div class="skills-list">
+        <span class="skill"><b>5</b> HTML5</span>
+        <span class="skill"><b>✳</b> CSS3</span>
+        <span class="skill"><b>JS</b> JavaScript</span>
+        <span class="skill"><b>⚛</b> React</span>
+        <span class="skill"><b>⌘</b> Git & GitHub</span>
+        <span class="skill"><b>↗</b> Responsive Design</span>
+      </div>
+
+      <p class="skills-note">
+        Edit this list to match the technologies you can confidently use.
+      </p>
+    </section>
+
+    <!-- Projects -->
+    <section class="projects-section section" id="projects">
+      <div class="projects-heading">
+        <div>
+          <span class="section-kicker">02 / SELECTED WORK</span>
+          <h2>Things I've <span class="gradient-text">built.</span></h2>
+          <p class="section-description">
+            Small ideas, practical experiments and projects that keep me learning.
+          </p>
+        </div>
+
+        <a href="https://github.com/juhimaru26-coder"
+           class="text-link"
+           target="_blank"
+           rel="noopener noreferrer">
+          View GitHub ↗
+        </a>
+      </div>
+
+      <div class="project-grid">
+
+        <!-- 1. MovieHub -->
+        <article class="project-card">
+          <div class="project-preview preview-movie">
+            <span class="preview-label">01 / WEB APP</span>
+            <div class="preview-art movie-art">
+              <span class="art-symbol">▶</span>
+              <span class="art-caption">MOVIE<span>HUB</span></span>
+              <span class="art-orb"></span>
+            </div>
+            <span class="preview-number">01</span>
+          </div>
+
+          <div class="project-info">
+            <div class="project-meta">
+              <span class="project-type">Movie Discovery</span>
+              <span class="project-arrow">↗</span>
+            </div>
+            <h3>MovieHub</h3>
+            <p>A movie discovery experience to explore films and enjoy a cinematic interface.</p>
+            <div class="project-tags">
+              <span>React</span><span>CSS</span><span>API</span>
+            </div>
+            <div class="project-actions">
+              <a class="project-button live-link" href=" https://juhimaru26-coder.github.io/Movie-Hub/" target="_blank" rel="noopener noreferrer">Live Demo ↗</a>
+              <a class="project-button code-link" href="https://github.com/juhimaru26-coder/Movie-Hub" target="_blank" rel="noopener noreferrer">GitHub Code ↗</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- 2. React Recipe Project -->
+        <article class="project-card">
+          <div class="project-preview preview-recipe">
+            <span class="preview-label">02 / REACT APP</span>
+            <div class="preview-art recipe-art">
+              <span class="recipe-sun"></span>
+              <span class="recipe-plate">✦</span>
+              <span class="recipe-title">a little<br>taste of home.</span>
+            </div>
+            <span class="preview-number">02</span>
+          </div>
+
+          <div class="project-info">
+            <div class="project-meta">
+              <span class="project-type">Food & Recipes</span>
+              <span class="project-arrow">↗</span>
+            </div>
+            <h3>React Recipe Project</h3>
+            <p>A recipe website project focused on presenting food ideas in a clean layout.</p>
+            <div class="project-tags">
+              <span>React</span><span>Tailwind CSS</span>
+            </div>
+            <div class="project-actions">
+              <a class="project-button live-link" href="https://react-recipe-project-edt29nu5s-juhi16.vercel.app/" target="_blank" rel="noopener noreferrer">Live Demo on Vercel ↗</a>
+              <a class="project-button code-link" href=" https://github.com/juhimaru26-coder/React-recipe-project" target="_blank" rel="noopener noreferrer">Github Code ↗</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- 3. Calculator -->
+        <article class="project-card">
+          <div class="project-preview preview-calculator">
+            <span class="preview-label">03 / MINI PROJECT</span>
+            <div class="mini-calculator">
+              <div class="calc-display">1,024</div>
+              <div class="calc-keys">
+                <span>AC</span><span>±</span><span>%</span><span class="calc-accent">÷</span>
+                <span>7</span><span>8</span><span>9</span><span class="calc-accent">×</span>
+                <span>4</span><span>5</span><span>6</span><span class="calc-accent">−</span>
+                <span>1</span><span>2</span><span>3</span><span class="calc-accent">+</span>
+              </div>
+            </div>
+            <span class="preview-number">03</span>
+          </div>
+
+          <div class="project-info">
+            <div class="project-meta">
+              <span class="project-type">Utility App</span>
+              <span class="project-arrow">↗</span>
+            </div>
+            <h3>Calculator</h3>
+            <p>A handy calculator interface for practising layout and interactive logic.</p>
+            <div class="project-tags">
+              <span>HTML</span><span>CSS</span><span>JavaScript</span>
+            </div>
+            <div class="project-actions">
+              <a class="project-button live-link" href=" https://juhimaru26-coder.github.io/Calculator/" target="_blank" rel="noopener noreferrer">Live Demo ↗</a>
+              <a class="project-button code-link" href="https://github.com/juhimaru26-coder/Calculator" target="_blank" rel="noopener noreferrer">GitHub Code ↗</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- 4. Tic Tac Toe -->
+        <article class="project-card">
+          <div class="project-preview preview-game">
+            <span class="preview-label">04 / BROWSER GAME</span>
+            <div class="tic-grid">
+              <span class="tic-x">×</span><span></span><span class="tic-o">○</span>
+              <span></span><span class="tic-x">×</span><span></span>
+              <span class="tic-o">○</span><span></span><span class="tic-x">×</span>
+            </div>
+            <span class="preview-number">04</span>
+          </div>
+
+          <div class="project-info">
+            <div class="project-meta">
+              <span class="project-type">Interactive Game</span>
+              <span class="project-arrow">↗</span>
+            </div>
+            <h3>Tic-Tac-Toe</h3>
+            <p>A classic two-player game built around turns, game rules and win detection.</p>
+            <div class="project-tags">
+              <span>HTML</span><span>CSS</span><span>JavaScript</span>
+            </div>
+            <div class="project-actions">
+              <a class="project-button live-link" href=" https://juhimaru26-coder.github.io/Tic-Tac-Toe-Game/" target="_blank" rel="noopener noreferrer">Live Demo ↗</a>
+              <a class="project-button code-link" href="https://github.com/juhimaru26-coder/Tic-Tac-Toe-Game" target="_blank" rel="noopener noreferrer">GitHub Code ↗</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- 5. JavaScript Quiz App -->
+        <article class="project-card">
+          <div class="project-preview preview-quiz">
+            <span class="preview-label">05 / LEARNING APP</span>
+            <div class="quiz-panel">
+              <span class="quiz-mini-label">QUICK QUIZ</span>
+              <span class="quiz-question">Ready to test<br>your knowledge?</span>
+              <div class="quiz-progress"><span></span></div>
+              <div class="quiz-option">A. Let's go!</div>
+              <div class="quiz-option">B. Maybe later</div>
+            </div>
+            <span class="preview-number">05</span>
+          </div>
+
+          <div class="project-info">
+            <div class="project-meta">
+              <span class="project-type">Quiz Application</span>
+              <span class="project-arrow">↗</span>
+            </div>
+            <h3>JavaScript Quiz App</h3>
+            <p>An interactive quiz experience to practise questions, answer handling and scoring.</p>
+            <div class="project-tags">
+              <span>JavaScript</span><span>DOM</span><span>CSS</span>
+            </div>
+            <div class="project-actions">
+              <a class="project-button live-link" href=" https://juhimaru26-coder.github.io/JavaScript-Quiz-App/" target="_blank" rel="noopener noreferrer">Live Demo ↗</a>
+              <a class="project-button code-link" href="https://github.com/juhimaru26-coder/JavaScript-Quiz-App" target="_blank" rel="noopener noreferrer">GitHub Code ↗</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- 6. Todo App -->
+        <article class="project-card">
+          <div class="project-preview preview-todo">
+            <span class="preview-label">06 / PRODUCTIVITY</span>
+            <div class="todo-panel">
+              <div class="todo-heading">Today's focus<span>✳</span></div>
+              <div class="todo-item"><i class="checked">✓</i><span>Plan the day</span></div>
+              <div class="todo-item"><i class="checked">✓</i><span>Write some code</span></div>
+              <div class="todo-item"><i></i><span>Build something new</span></div>
+              <div class="todo-item"><i></i><span>Keep learning</span></div>
+            </div>
+            <span class="preview-number">06</span>
+          </div>
+
+          <div class="project-info">
+            <div class="project-meta">
+              <span class="project-type">Productivity App</span>
+              <span class="project-arrow">↗</span>
+            </div>
+            <h3>Todo App</h3>
+            <p>A simple task manager for organising everyday tasks and tracking progress.</p>
+            <div class="project-tags">
+              <span>HTML</span><span>CSS</span><span>JavaScript</span>
+            </div>
+            <div class="project-actions">
+              <a class="project-button live-link" href="https://juhimaru26-coder.github.io/Todo-App/" target="_blank" rel="noopener noreferrer">Live Demo ↗</a>
+              <a class="project-button code-link" href="https://github.com/juhimaru26-coder/Todo-App" target="_blank" rel="noopener noreferrer">GitHub Code ↗</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- 7. Teacher Day -->
+        <article class="project-card">
+          <div class="project-preview preview-teacher">
+            <span class="preview-label">07 / CREATIVE WEBSITE</span>
+            <div class="teacher-art">
+              <span class="teacher-star">✦</span>
+              <span class="teacher-script">Thank you</span>
+              <span class="teacher-main">TEACHER</span>
+              <span class="teacher-main teacher-highlight">DAY</span>
+              <span class="teacher-small">for making a difference</span>
+            </div>
+            <span class="preview-number">07</span>
+          </div>
+
+          <div class="project-info">
+            <div class="project-meta">
+              <span class="project-type">Celebration Website</span>
+              <span class="project-arrow">↗</span>
+            </div>
+            <h3>Teacher Day</h3>
+            <p>A creative tribute website made to celebrate teachers and their impact.</p>
+            <div class="project-tags">
+              <span>HTML</span><span>CSS</span><span>Web Design</span>
+            </div>
+            <div class="project-actions">
+              <a class="project-button live-link" href=" https://juhimaru26-coder.github.io/Teacher-Day/" target="_blank" rel="noopener noreferrer">Live Demo ↗</a>
+              <a class="project-button code-link" href="https://github.com/juhimaru26-coder/Teacher-Day" target="_blank" rel="noopener noreferrer">GitHub Code ↗</a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact-section section" id="contact">
+      <div class="contact-card">
+        <span class="section-kicker">03 / WHAT'S NEXT?</span>
+        <h2>Have an idea?<br><span class="gradient-text">Let's build it.</span></h2>
+        <p>
+          I'm always learning and exploring new ways to create better web experiences.
+          Take a look at my work or connect with me on GitHub.
+        </p>
+        <a href="https://github.com/juhimaru26-coder"
+           class="button button-primary"
+           target="_blank"
+           rel="noopener noreferrer">
+          Connect on GitHub ↗
+        </a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <a href="#home" class="logo">&lt;dev<span>folio</span> /&gt;</a>
+    <p>Designed & built with curiosity.</p>
+    <a href="#home" class="back-top">Back to top ↑</a>
+  </footer>
+
+</body>
+</html>
